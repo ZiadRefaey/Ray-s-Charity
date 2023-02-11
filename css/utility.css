@@ -2,14 +2,16 @@
   background-color: var(--comp);
   color: var(--main);
   border: none;
+  transition: 0.3s all;
 }
 .btn-secondary {
   background-color: var(--secondary);
   color: var(--main);
   border: none;
+  transition: 0.3s all;
 }
 .btn-primary:hover,
-.btn-primary:hover {
+.btn-secondary:hover {
   opacity: 0.85;
   cursor: pointer;
 }

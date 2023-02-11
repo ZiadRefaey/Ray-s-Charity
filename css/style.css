@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Itim", cursive;
+  background-color: #f0f0f0;
 }
 .header {
   height: 100vh;
@@ -92,8 +93,7 @@ a {
   cursor: pointer;
   background-color: var(--comp);
 }
-.header__nav-item a {
-}
+
 .header__nav-item:hover a {
   color: var(--main);
 }
@@ -130,7 +130,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: gray;
   color: var(--secondary);
   position: absolute;
   bottom: 0;
@@ -178,4 +177,32 @@ a {
 }
 .hero__counter-2 button:hover {
   cursor: pointer;
+}
+#section--2 {
+  padding: 250px 0px 100px 0px;
+}
+.section--2__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: var(--secondary);
+  max-width: 960px;
+  width: 50%;
+}
+.section--2__title {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+.section--2__body {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+.section--2__container button {
+  padding: 10px 40px;
+  font-size: 1.25rem;
+  transition: all 0.3s;
 }

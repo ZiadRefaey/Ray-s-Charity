@@ -1,0 +1,19 @@
+.btn-primary {
+  background-color: var(--comp);
+  color: var(--main);
+  border: none;
+}
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--main);
+  border: none;
+}
+.btn-primary:hover,
+.btn-primary:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+.btn-primary a,
+.btn-secondary a {
+  color: var(--main);
+}

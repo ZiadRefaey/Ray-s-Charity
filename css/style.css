@@ -51,7 +51,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: auto;
   height: 100%;
 }
@@ -92,6 +92,7 @@ a {
 .header__nav-item:hover {
   cursor: pointer;
   background-color: var(--comp);
+  opacity: 0.7;
 }
 
 .header__nav-item:hover a {
@@ -217,6 +218,7 @@ a {
   gap: 20%;
   margin: auto;
   width: 80%;
+  max-width: 1600px;
 }
 
 .cta__img {
@@ -251,6 +253,7 @@ a {
 }
 .cta__description-text {
   font-size: 1.25rem;
+  padding: 25px 0px;
 }
 .cta__buttons {
   display: flex;
@@ -263,4 +266,49 @@ a {
   padding: 1rem;
   border-radius: 25px;
   font-size: 1.25rem;
+}
+.our-work {
+  padding: 100px;
+}
+.ow__container {
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px;
+  width: 90%;
+  max-width: 1600px;
+}
+.ow__item {
+  background-color: #e0e7f4;
+  transition: 0.5s all;
+}
+.ow__item:hover {
+  box-shadow: 5px 5px 40px 5px rgba(0, 00, 0, 0.4);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.ow__item:hover .ow__title {
+  color: var(--comp);
+}
+.ow__img {
+  width: 100%;
+  height: 250px;
+}
+.ow__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ow__title {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.5s all;
+}
+.ow__description {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 40px;
+  margin-top: 20px;
 }

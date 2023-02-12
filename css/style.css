@@ -576,3 +576,47 @@ a {
   border-radius: 25px;
   font-size: 1.25rem;
 }
+.header__about {
+  height: 35rem;
+}
+
+.hero__about {
+  background-image: url("../assets/About/hero.jpg");
+  height: 100%;
+}
+.our__mission {
+  width: 100%;
+  height: 40rem;
+}
+.om__container {
+  height: 100%;
+  width: 70%;
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.om__img {
+  width: 100%;
+  height: 100%;
+}
+.om__img img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+.om__content {
+  width: 80%;
+  margin: auto;
+}
+
+.om__content--title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.om__content--description {
+  font-size: 1.5rem;
+  text-align: center;
+}

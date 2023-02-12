@@ -97,6 +97,22 @@ a {
 .header__nav-item:hover a {
   color: var(--main);
 }
+.header__nav--active {
+  background-color: var(--comp);
+  position: relative;
+}
+.header__nav--active a {
+  color: var(--main);
+}
+.header__nav--active::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: -30px;
+  height: 30px;
+}
 .header__nav-item::after {
   position: absolute;
   content: "";
@@ -179,7 +195,7 @@ a {
 .hero__counter-2 button:hover {
   cursor: pointer;
 }
-#section--2 {
+.section--2 {
   padding: 250px 0px 100px 0px;
 }
 .section--2__container {
@@ -449,4 +465,114 @@ a {
 }
 .fa-instagram {
   border-right: none;
+}
+.hero__stories {
+  background-image: url(/assets/Stories/stroies-bg.jpg);
+  /* height: 35rem; */
+  height: 100%;
+}
+.hero__title-stories {
+  font-size: 4rem;
+}
+.header__stories {
+  height: 35rem;
+}
+.section__stories--2 {
+  padding: 100px 0px;
+}
+.section__stories--2 h3 {
+  font-size: 1.5rem;
+}
+.stories {
+  padding: 100px 0px;
+  width: 100%;
+}
+.stories__container {
+  width: 80%;
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+}
+.story {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  height: 25rem;
+  margin-bottom: 100px;
+}
+.story__img {
+  width: 48%;
+  height: auto;
+}
+.story__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story__content {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.story__content--title {
+  font-size: 1.5rem;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 20px;
+}
+.story__content--button {
+  width: 40%;
+  padding: 20px 0px;
+  font-size: 1.25rem;
+  border-radius: 25px;
+}
+.story__content__button--container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.story--2 {
+  flex-direction: row-reverse;
+}
+.story--2 .story__content__button--container {
+  justify-content: start;
+}
+
+.cta__stories {
+  width: 100%;
+  padding: 100px 0px;
+}
+.cta__stories--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  max-width: 1120px;
+}
+.cta__stories--title {
+  font-size: 1.75rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.cta__stories--description {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.cta__stories--button button {
+  padding: 20px 60px;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 25px;
+  font-size: 1.25rem;
 }

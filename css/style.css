@@ -707,3 +707,63 @@ a {
   border-radius: 25px;
   border: 2px solid var(--secondary);
 }
+
+.hero__contact {
+  background-image: url("/assets/Contact/hero.jpg");
+}
+.contact__form {
+  padding: 100px;
+  width: 100%;
+}
+.contact__form--container {
+  width: 70%;
+  max-width: 1120px;
+  margin: auto;
+}
+.contact__form--title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form__input--container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form__input--container input {
+  padding: 15px 20px;
+  width: 32%;
+  border-radius: 25px;
+  border: 2px solid #656565;
+}
+.form__input--container input:focus {
+  outline: 1px solid #333;
+}
+
+.form--textarea {
+  width: 99%;
+  border-radius: 25px;
+  padding: 15px 20px;
+  height: 250px;
+
+  font-size: 20px;
+  background-color: #fff;
+  border: 2px solid #656565;
+}
+.form--textarea:focus {
+  outline: 1px solid #333;
+}
+.form--btn {
+  padding: 20px 0px;
+  width: 25%;
+  border-radius: 25px;
+  margin-top: 25px;
+  font-size: 1.25rem;
+}

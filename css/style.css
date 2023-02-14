@@ -422,7 +422,7 @@ a {
 .footer__subscribe input {
   width: 90%;
   margin-right: 0px;
-  padding: 0px;
+  padding: 10px 0px;
 }
 .footer__subscribe button {
   margin-left: 10px;
@@ -798,4 +798,148 @@ a {
 .iframe__map {
   height: 500px;
   width: 100%;
+}
+
+.hero__donate {
+  background-image: url("/assets/Donate/hero.jpg");
+}
+
+.donate__form--container {
+  margin: auto;
+  width: 50%;
+  color: var(--main);
+  padding: 75px;
+  background-color: var(--secondary);
+  transform: translateY(-15%);
+}
+.donate__form--title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.donation__form--custom {
+  padding: 5px 0px;
+  width: 33%;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+  outline: none;
+}
+.pick__btns--container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pick__btns--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.btn-top {
+  width: 33%;
+  margin: auto;
+  padding: 5px 0px;
+  border: 4px solid var(--comp);
+  font-size: 1.25rem;
+  transition: 0.2s all ease-in-out;
+}
+.btn-top:hover,
+.btn-bot:hover {
+  cursor: pointer;
+  background-color: var(--comp);
+  color: var(--main);
+}
+.pick__btns--bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-bot {
+  width: 50%;
+  padding: 5px 0px;
+  border: 4px solid var(--comp);
+  transition: 0.2s all ease-in-out;
+}
+.personal__info {
+  margin-top: 40px;
+}
+.personal__info--title {
+  margin-bottom: 20px;
+}
+.personal__info--names {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.personal__info--names input {
+  padding: 5px 10px;
+  width: 48%;
+}
+.personal__info--email {
+  width: 100%;
+  background-color: #d5d5d5;
+  margin-bottom: 10px;
+}
+.personal__info--email input {
+  padding: 5px 10px;
+  width: 100%;
+}
+.donate--textarea {
+  border-radius: 0px;
+  border: none;
+  width: 100%;
+}
+.credit__info {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.credit__info--title {
+  margin-bottom: 20px;
+}
+.credit__info--top,
+.credit__info--bot {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.card-holder,
+.card-number {
+  width: 65%;
+  padding: 5px;
+}
+.cvc,
+.card-date {
+  width: 30%;
+  padding: 5px;
+}
+.form__footer--items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form__footer--items div {
+  width: 25%;
+  background-color: var(--main);
+  color: var(--secondary);
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+}
+.form__footer--items button {
+  width: 25%;
+  background-color: var(--main);
+  padding: 5px 10px;
+  border: 4px solid var(--comp);
+  font-size: 1.25rem;
+  transition: 0.2s all ease-in-out;
+}
+.form__footer--items button:hover {
+  background-color: var(--comp);
+  cursor: pointer;
+  color: var(--main);
 }

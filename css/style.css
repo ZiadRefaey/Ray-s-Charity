@@ -767,3 +767,35 @@ a {
   margin-top: 25px;
   font-size: 1.25rem;
 }
+.contact__info {
+  width: 100%;
+  padding: 100px 0px;
+  padding-bottom: 25px;
+}
+.contact__info--container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact__phone,
+.contact__address {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.contact__phone .fa-solid,
+.contact__address .fa-solid {
+  margin-right: 20px;
+  font-size: 1.75rem;
+}
+
+.map {
+  padding-bottom: 50px;
+  width: 100%;
+}
+.iframe__map {
+  height: 500px;
+  width: 100%;
+}

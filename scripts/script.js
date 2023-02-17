@@ -1,9 +1,12 @@
-$(document).ready(function () {
-  var maxHeight = 0;
-  $(".carousel-inner .item").each(function () {
-    if ($(this).height() > maxHeight) {
-      maxHeight = $(this).height();
-    }
-  });
-  $(".carousel-container").height(maxHeight);
+const hamburger = document.querySelector(".hamburger");
+const mobileNav = document.querySelector(".mobile-nav");
+const xMark = document.querySelector(".fa-xmark");
+
+document.querySelector(".hamburger").addEventListener("click", function () {
+  mobileNav.classList.add("is-active");
+  body.classList.add("scroll-hidden");
+});
+xMark.addEventListener("click", function () {
+  mobileNav.classList.remove("is-active");
+  body.classList.remove("scroll-hidden");
 });

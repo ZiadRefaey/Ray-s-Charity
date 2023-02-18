@@ -1212,7 +1212,7 @@ a {
   font-size: 1.75rem;
 }
 .faq__section {
-  padding: 100px;
+  padding: 100px 0px;
 }
 .faq {
   padding: 20px;
@@ -1470,8 +1470,62 @@ a {
     display: block;
   }
 }
-@media screen and (max-wdith: 900px) {
+
+@media screen and (max-width: 900px) {
   .hero__title h2 {
     font-size: 1rem !important;
+  }
+  .om__content--description p {
+    font-size: 1rem;
+  }
+  .om__content--title {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+  }
+  .faq--description {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .om__img {
+    display: none;
+  }
+  .om {
+    padding: 50px 0px !important;
+  }
+  .om__container {
+    width: 95%;
+  }
+  .faq__section--title h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cards__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+  }
+  .card__content {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .cards__container {
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+  .card__content {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .faq--description {
+    width: 100%;
+    padding: 0px 20px;
   }
 }

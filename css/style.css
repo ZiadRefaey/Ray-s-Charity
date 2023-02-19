@@ -1174,7 +1174,7 @@ a {
 }
 .sac {
   width: 100%;
-  padding: 100px;
+  padding: 100px 0px;
 }
 .sac__container {
   width: 70%;
@@ -1607,5 +1607,53 @@ a {
   }
   .story__content--description {
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .education__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .education__box {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .education__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .education__box {
+    align-self: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ce__box {
+    padding: 5px;
+  }
+  .ce__box h3 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .ce__box p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .sac--title h3 {
+    font-size: 1.75rem;
+  }
+  .sac--description p {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sac--title h3 {
+    font-size: 1.5rem;
+  }
+
+  .sac--description p {
+    font-size: 1rem;
   }
 }

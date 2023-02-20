@@ -63,7 +63,6 @@ body {
   left: 0;
   width: 100%;
   background-color: var(--main);
-  background-color: pink;
   height: 6rem;
 }
 .header__nav-list {
@@ -257,8 +256,8 @@ a {
 }
 
 .mobile-nav a:hover {
-  background-color: #f1f1f1;
-  color: #333;
+  background-color: var(--secondary);
+  color: var(--main);
 }
 
 /* Hero section */

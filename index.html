@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="/css/utility.css" />
     <link rel="stylesheet" href="css/fonts.css" />
@@ -109,7 +110,7 @@
         </div>
       </div>
     </header>
-    <div class="hero__counter-container mobile__counter">
+    <div class="hero__counter-container mobile__counter" data-aos="fade-up">
       <div class="hero__counter hero__counter-1">
         <div class="hero__counter-title">1.2M</div>
         <div class="hero__counter-tagline">Sponsored Children</div>
@@ -133,7 +134,7 @@
       </div>
     </div>
     <section class="section--2">
-      <div class="section--2__container">
+      <div class="section--2__container" data-aos="fade-down">
         <div class="section--2__logo">
           <img src="/assets/Logo.png" alt="Logo" />
         </div>
@@ -160,13 +161,13 @@
     </section>
     <section class="cta">
       <div class="cta__container">
-        <div class="cta__img">
+        <div class="cta__img" data-aos="fade-right">
           <img
             src="assets/Home Page/Call to action.jpg"
             alt="Call To Action Image"
           />
         </div>
-        <div class="cta__content">
+        <div class="cta__content" data-aos="fade-left">
           <div class="cta__title">
             <h3 class="cta__title-text">
               Donate Today and Help Orphaned Children Thrive
@@ -193,7 +194,7 @@
       </div>
     </section>
     <section class="our-work">
-      <div class="ow__container">
+      <div class="ow__container" data-aos="fade-up">
         <div class="ow__item ow__item--1">
           <div class="ow__content">
             <div class="ow__img">
@@ -316,6 +317,12 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
+
   <script src="/scripts/script.js"></script>
 </html>

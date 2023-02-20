@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/utility.css" />
     <link rel="stylesheet" href="../css/fonts.css" />
@@ -81,7 +82,7 @@
     </section>
     <section class="stories">
       <div class="stories__container">
-        <div class="story story--1">
+        <div class="story story--1" data-aos="fade-up">
           <div class="story__img">
             <img src="../assets/Stories/boy 1.jpg" />
           </div>
@@ -107,7 +108,7 @@
             <div class="story__content__button--container"></div>
           </div>
         </div>
-        <div class="story story--2">
+        <div class="story story--2" data-aos="fade-up">
           <div class="story__img">
             <img src="../assets/Stories/girl 3.jpg" />
           </div>
@@ -133,7 +134,7 @@
             <div class="story__content__button--container"></div>
           </div>
         </div>
-        <div class="story story--3">
+        <div class="story story--3" data-aos="fade-up">
           <div class="story__img">
             <img src="../assets/Stories/boy 2.jpg" />
           </div>
@@ -162,7 +163,7 @@
       </div>
     </section>
     <section class="cta__stories">
-      <div class="cta__stories--container">
+      <div class="cta__stories--container" data-aos="fade-up">
         <div class="cta__stories--title">
           <h3>Join the Movement: Be a Part of Our Orphan Charity's Mission</h3>
         </div>
@@ -246,5 +247,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

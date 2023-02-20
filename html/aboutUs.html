@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/utility.css" />
     <link rel="stylesheet" href="../css/fonts.css" />
@@ -85,7 +86,7 @@
     </section>
     <div class="cards">
       <div class="cards__container">
-        <div class="card__content card--1">
+        <div class="card__content card--1" data-aos="fade-up-right">
           <div class="card__content--title">
             <i class="fa-solid fa-scroll aboutus__icon"></i>
             <div class="card--title__text">Our History</div>
@@ -101,7 +102,7 @@
             </p>
           </div>
         </div>
-        <div class="card__content card--2">
+        <div class="card__content card--2" data-aos="fade-up">
           <div class="card__content--title">
             <i class="fa-solid fa-sack-dollar aboutus__icon"></i>
             <div class="card--title__text">Financial Transparency</div>
@@ -117,7 +118,7 @@
             </p>
           </div>
         </div>
-        <div class="card__content card--3">
+        <div class="card__content card--3" data-aos="fade-up-left">
           <div class="card__content--title">
             <i class="fa-sharp fa-solid fa-people-group aboutus__icon"></i>
             <div class="card--title__text">Our Team</div>
@@ -138,7 +139,7 @@
 
     <section class="faq__section">
       <div class="faq__section--title"><h3>What People Say About us</h3></div>
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper" data-aos="zoom-in">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="faq">
@@ -265,6 +266,10 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 

@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/utility.css" />
     <link rel="stylesheet" href="../css/fonts.css" />
@@ -58,7 +59,7 @@
         </div>
       </div>
     </header>
-    <section class="contact__form">
+    <section class="contact__form" data-aos="fade-up">
       <div class="contact__form--container">
         <h3 class="contact__form--title">SEND US A MESSAGE</h3>
         <form class="form">
@@ -95,7 +96,7 @@
         </section>
       </div>
     </section>
-    <section class="map">
+    <section class="map" data-aos="fade-up">
       <iframe
         class="iframe__map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.8594111833487!2d-81.68646019334221!3d29.995587504855347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5d0a9411cbd6f%3A0x47d56116f557561c!2s416%20Harrison%20St%2C%20Green%20Cove%20Springs%2C%20FL%2032043%2C%20USA!5e0!3m2!1sen!2suk!4v1676337163168!5m2!1sen!2suk"
@@ -175,5 +176,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -24,6 +25,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/utility.css" />
     <link rel="stylesheet" href="../css/fonts.css" />
@@ -73,7 +75,7 @@
     </header>
 
     <section class="sac">
-      <div class="sac__container">
+      <div class="sac__container" data-aos="fade-up">
         <div class="sac--title"><h3>How It Works</h3></div>
         <div class="sac--description">
           <p>
@@ -89,7 +91,7 @@
     </section>
 
     <section class="sd">
-      <div class="sd__container">
+      <div class="sd__container" data-aos="fade-up">
         <div class="sd__content">
           <div class="sd__content--title">
             <h3>Sponsership Details</h3>
@@ -111,7 +113,7 @@
       </div>
     </section>
 
-    <section class="faq__section">
+    <section class="faq__section" data-aos="fade-up">
       <div class="faq__section--title"><h3>Questions Frequently Asked</h3></div>
       <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
@@ -174,7 +176,7 @@
     </section>
 
     <section class="cta__sponsor">
-      <div class="cta__sponsor--container">
+      <div class="cta__sponsor--container" data-aos="fade-up">
         <div class="cta__sponsor--description">
           <p>
             To sign up in our sponsor program click the button below and contact
@@ -257,7 +259,10 @@
         </div>
       </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Rays Charity</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <nav class="header__nav">
         <ul class="header__nav-list">
@@ -29,6 +29,9 @@
           </div>
           <div class="header__nav-items">
             <li class="header__nav-item">
+              <a href="/html/aboutUs.html" class="header__nav-link">Home</a>
+            </li>
+            <li class="header__nav-item">
               <a href="/html/aboutUs.html" class="header__nav-link">About Us</a>
             </li>
             <li class="header__nav-item">
@@ -37,10 +40,13 @@
             <li class="header__nav-item">
               <a href="/html/ourwork.html" class="header__nav-link">Our Work</a>
             </li>
-            <li class="header__nav-item">
-              <a href="/html/getinvolved.html" class="header__nav-link"
-                >Get Involved</a
-              >
+            <li class="header__nav-item dropdown">
+              Get Involved
+              <ul class="dropdown-menu">
+                <li class="dropdown-menu__item">Sponsor A Child</li>
+                <li class="dropdown-menu__item">Volunteer</li>
+                <li class="dropdown-menu__item">Donate Now</li>
+              </ul>
             </li>
             <li class="header__nav-item">
               <a href="/html/contactus.html" class="header__nav-link"
@@ -53,18 +59,17 @@
       <button class="hamburger"><div class="bar"></div></button>
       <div class="mobile-nav">
         <div class="mobile-nav__header">
-          <img
-            loading="lazy"
-            src="/Assets/WhiteLogo.png"
-            alt="Ray's Restauraunt logo"
-          />
           <i class="fa-solid fa-xmark"></i>
         </div>
         <nav class="mobile-nav__body">
-          <a href="menu.html">Menu</a>
-          <a href="events.html">Events</a>
-          <a href="aboutus.html">About Us</a>
-          <a href="contact.html">Contact Us</a>
+          <a class="mobile-nav__item" href="menu.html">Home</a>
+          <a class="mobile-nav__item" href="events.html">About us</a>
+          <a class="mobile-nav__item" href="aboutus.html">Contact Us</a>
+          <a class="mobile-nav__item" href="contact.html">Our Work</a>
+          <a class="mobile-nav__item" href="contact.html">Stories</a>
+          <a class="mobile-nav__item" href="contact.html">Soponsor </a>
+          <a class="mobile-nav__item" href="contact.html">Volunteer </a>
+          <a class="mobile-nav__item" href="contact.html">Donate Now</a>
         </nav>
       </div>
       <div class="hero">

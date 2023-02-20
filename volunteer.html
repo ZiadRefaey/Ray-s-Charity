@@ -13,13 +13,13 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/utility.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
-    <link rel="stylesheet" href="../css/variables.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Volunteer</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header header__volunteer">
       <nav class="header__nav">
         <ul class="header__nav-list">
@@ -30,27 +30,52 @@
           </div>
           <div class="header__nav-items">
             <li class="header__nav-item">
-              <a href="/html/aboutUs.html" class="header__nav-link">About Us</a>
+              <a href="index.html" class="header__nav-link">Home</a>
             </li>
             <li class="header__nav-item">
-              <a href="/html/stories.html" class="header__nav-link">Stories</a>
+              <a href="aboutUs.html" class="header__nav-link">About Us</a>
             </li>
             <li class="header__nav-item">
-              <a href="/html/ourwork.html" class="header__nav-link">Our Work</a>
+              <a href="stories.html" class="header__nav-link">Stories</a>
             </li>
             <li class="header__nav-item">
-              <a href="/html/getinvolved.html" class="header__nav-link"
-                >Get Involved</a
-              >
+              <a href="ourwork.html" class="header__nav-link">Our Work</a>
+            </li>
+            <li class="header__nav-item dropdown">
+              Get Involved
+              <ul class="dropdown-menu">
+                <a href="sponsor.html">
+                  <li class="dropdown-menu__item">Sponsor A Child</li>
+                </a>
+                <a href="volunteer.html">
+                  <li class="dropdown-menu__item">Volunteer</li>
+                </a>
+                <a href="donate.html">
+                  <li class="dropdown-menu__item">Donate Now</li>
+                </a>
+              </ul>
             </li>
             <li class="header__nav-item">
-              <a href="/html/contactus.html" class="header__nav-link"
-                >Contact Us</a
-              >
+              <a href="contactus.html" class="header__nav-link">Contact Us</a>
             </li>
           </div>
         </ul>
       </nav>
+      <button class="hamburger"><div class="bar"></div></button>
+      <div class="mobile-nav">
+        <div class="mobile-nav__header">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <nav class="mobile-nav__body">
+          <a class="mobile-nav__item" href="index.html">Home</a>
+          <a class="mobile-nav__item" href="aboutUs.html">About us</a>
+          <a class="mobile-nav__item" href="contactus.html">Contact Us</a>
+          <a class="mobile-nav__item" href="stories.html">Stories</a>
+          <a class="mobile-nav__item" href="sponsor.html">Sponsor </a>
+          <a class="mobile-nav__item" href="volunteer.html">Volunteer </a>
+          <a class="mobile-nav__item" href="donate.html">Donate Now</a>
+        </nav>
+      </div>
       <div class="hero hero__volunteer">
         <div class="hero__content">
           <div class="hero__title">
@@ -308,4 +333,5 @@
       AOS.init();
     </script>
   </body>
+  <script src="/scripts/script.js"></script>
 </html>

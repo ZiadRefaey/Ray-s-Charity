@@ -13,44 +13,69 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/utility.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
-    <link rel="stylesheet" href="../css/variables.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Contact</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header header__stories">
       <nav class="header__nav">
         <ul class="header__nav-list">
           <div class="header__nav-logo">
             <li class="header__nav-logo-img">
-              <a href="../index.html"><img src="/assets/Logo.png" /></a>
+              <a href="index.html"><img src="/assets/Logo.png" /></a>
             </li>
           </div>
           <div class="header__nav-items">
             <li class="header__nav-item">
-              <a href="/html/aboutUs.html" class="header__nav-link">About Us</a>
+              <a href="index.html" class="header__nav-link">Home</a>
             </li>
             <li class="header__nav-item">
-              <a href="/html/stories.html" class="header__nav-link">Stories</a>
+              <a href="aboutUs.html" class="header__nav-link">About Us</a>
             </li>
             <li class="header__nav-item">
-              <a href="/html/ourwork.html" class="header__nav-link">Our Work</a>
+              <a href="stories.html" class="header__nav-link">Stories</a>
             </li>
             <li class="header__nav-item">
-              <a href="/html/getinvolved.html" class="header__nav-link"
-                >Get Involved</a
-              >
+              <a href="ourwork.html" class="header__nav-link">Our Work</a>
             </li>
-            <li class="header__nav-item header__nav--active">
-              <a href="/html/contactus.html" class="header__nav-link"
-                >Contact Us</a
-              >
+            <li class="header__nav-item dropdown">
+              Get Involved
+              <ul class="dropdown-menu">
+                <a href="sponsor.html">
+                  <li class="dropdown-menu__item">Sponsor A Child</li>
+                </a>
+                <a href="volunteer.html">
+                  <li class="dropdown-menu__item">Volunteer</li>
+                </a>
+                <a href="donate.html">
+                  <li class="dropdown-menu__item">Donate Now</li>
+                </a>
+              </ul>
+            </li>
+            <li class="header__nav-item">
+              <a href="contactus.html" class="header__nav-link">Contact Us</a>
             </li>
           </div>
         </ul>
       </nav>
+      <button class="hamburger"><div class="bar"></div></button>
+      <div class="mobile-nav">
+        <div class="mobile-nav__header">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <nav class="mobile-nav__body">
+          <a class="mobile-nav__item" href="index.html">Home</a>
+          <a class="mobile-nav__item" href="aboutUs.html">About us</a>
+          <a class="mobile-nav__item" href="contactus.html">Contact Us</a>
+          <a class="mobile-nav__item" href="stories.html">Stories</a>
+          <a class="mobile-nav__item" href="sponsor.html">Sponsor </a>
+          <a class="mobile-nav__item" href="volunteer.html">Volunteer </a>
+          <a class="mobile-nav__item" href="donate.html">Donate Now</a>
+        </nav>
+      </div>
       <div class="hero hero__contact">
         <div class="hero__content">
           <div class="hero__title hero__title-contact">
@@ -96,7 +121,7 @@
         </section>
       </div>
     </section>
-    <section class="map" data-aos="fade-up">
+    <!-- <section class="map" data-aos="fade-up">
       <iframe
         class="iframe__map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.8594111833487!2d-81.68646019334221!3d29.995587504855347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5d0a9411cbd6f%3A0x47d56116f557561c!2s416%20Harrison%20St%2C%20Green%20Cove%20Springs%2C%20FL%2032043%2C%20USA!5e0!3m2!1sen!2suk!4v1676337163168!5m2!1sen!2suk"
@@ -105,7 +130,7 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-    </section>
+    </section> -->
 
     <footer class="footer">
       <div class="footer__container">
@@ -181,4 +206,5 @@
       AOS.init();
     </script>
   </body>
+  <script src="/scripts/script.js"></script>
 </html>

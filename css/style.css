@@ -1327,6 +1327,11 @@ a {
   grid-gap: 25px;
   /* justify-content: space-between; */
 }
+@media screen and (max-width: 1100px) {
+  .sd__container {
+    grid-template-columns: 1fr;
+  }
+}
 .sd__img {
   width: 100%;
   height: auto;
@@ -1353,6 +1358,26 @@ a {
 }
 .sd p {
   font-size: 1.75rem;
+}
+
+@media screen and (max-width: 750px) {
+  .sd__container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sd__content--title h3 {
+    font-size: 1.75rem;
+  }
+  .sd__content--description p {
+    font-size: 1rem;
+  }
+  .sd {
+    padding: 100px 0px;
+  }
+  .sd__container {
+    width: 90%;
+  }
 }
 .faq__section {
   padding: 100px 0px;
@@ -1640,7 +1665,19 @@ a {
     width: 95%;
   }
   .faq__section--title h3 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+  }
+  .faq--title__text h3 {
+    font-size: 1.2rem;
+  }
+  .faq__navigation-btn {
+    display: none;
+  }
+  .faq--description {
+    width: 100%;
+  }
+  .mySwiper1 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -1953,5 +1990,29 @@ a {
 @media screen and (max-width: 1300px) {
   .mobile__footer--container {
     display: flex;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .index__hero--content .hero__title h2 {
+    font-size: 2rem;
+  }
+  .index__hero--content .hero__tagline p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .index__hero--content .hero__title h2 {
+    font-size: 1.75rem;
+  }
+  .index__hero--content .hero__tagline p {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 475px) {
+  .index__hero--content .hero__title h2 {
+    font-size: 1.5rem;
+  }
+  .index__hero--content .hero__tagline p {
+    font-size: 1rem;
   }
 }
